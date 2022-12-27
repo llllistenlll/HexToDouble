@@ -55,7 +55,7 @@ void MainWindow::on_pushButton_clicked()
 
        QString gh=ieee754_hex_str_to_float(array_1);
        //double cd=toFloat(hex_double);
-       qDebug()<<gh<<"444444444444444444444444";
+       qDebug()<<gh<<"444444444444444444444444989595";
        ui->lineEdit_tofloat->setText(gh.toUpper());
    }
 
@@ -70,7 +70,7 @@ void MainWindow::on_pushButton_clicked()
 
        QString cd=ieee754_hex_str_to_float(array);
        //double cd=toFloat(hex_double);
-       qDebug()<<cd<<"22222222222222222222222";
+       qDebug()<<cd<<"222222222226565962222222222222";
        ui->lineEdit_tofloat->setText(cd.toUpper());
 
    }
